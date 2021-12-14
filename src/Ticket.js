@@ -38,13 +38,13 @@ const Ticket = () => {
     <>
       <div style={{ ...Container, width: width, height: height }}>
         <Confetti width={width} height={height} />
-         <div style={{ ...rectangulo,  flexDirection: width  < 400 ? 'column' : 'row'  }}>
+         <div style={{ ...rectangulo,  flexDirection: width  < 450 ? 'column' : 'row'  }}>
           <div className="section1">
             <div className="icon-text">
               <div style={{ width: '22%' }}>
                 <img src={osoColor} className="BearIcon" alt="osolog" />
               </div>
-              <div style={{ width: '65%', paddingLeft: width  < 400 ? 0 : '5%' }}>
+              <div style={{ width: '65%', paddingLeft: width  < 450 ? 0 : '5%' }}>
                 <p className="fontFiesta">Te esperamos</p>
                 <p className="fontFiesta">Fiesta de Revelación 2021</p>
               </div>
