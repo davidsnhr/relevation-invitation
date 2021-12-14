@@ -25,6 +25,7 @@ const Home = () => {
       setRedirect(true);
     } catch (error) {
       setLoading(false);
+      setRedirect(true);
       console.log(error);
     }
   };
